@@ -3,6 +3,7 @@ Documentation  Dependências do projeto
 
 #Dependências
 Library  SeleniumLibrary
+Library  FakerLibrary    locale=pt_br
 
 #Keyword
 Resource    setup.robot
@@ -10,6 +11,7 @@ Resource     ../auto/keywords/home_kws.robot
 Resource     ../auto/keywords/login_kws.robot
 Resource     ../auto/keywords/minha_conta_kws.robot
 Resource     ../auto/keywords/comum_kws.robot
+Resource     ../auto/keywords/cadastro_kws.robot
 
 #Elements
 Resource     ../auto/elements/home_ets.resource
