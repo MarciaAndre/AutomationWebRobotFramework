@@ -28,6 +28,7 @@ Cenario: Login com credenciais inválidas
     Quando inserir os dados de login    ${MASSA_DADOS.LOGIN_INVALIDO.EMAIL}    ${MASSA_DADOS.LOGIN_INVALIDO.SENHA}  
     E clicar no elemento    ${LOGIN.BOTAO_SIGNIN}
     Então deve visualizar a mensagem    ${LOGIN.TEXTO_ERRO}    ${MENSAGENS.LOGIN.AUTHENTICATION_FAILED}
+    
 
   
 #Criar as Keywords - importar as bibliotecas (pip instal - seleniumLibrary / fake Library / Strig - cuidar com versões certas)
